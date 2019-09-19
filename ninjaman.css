@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    line-height: 0;
+}
+.wall {
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+.sushi {
+    background-color: black;
+    background-image: url("./img/sushi.png");    
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-size: contain;
+}
+.onigiri {
+    background-color: black;
+    background-image: url("./img/onigiri.png");    
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-size: contain;
+}
+.blank   {
+    background-color: blue;
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+}
+
+#ninjaman {
+    background-color: black;
+    background-image: url("./img/ninja.gif");    
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-size: contain;
+}
+#ghosts {
+    background-color: black;
+    background-image: url("./img/pumpky.gif");    
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background-size: contain;
+}
+#score {
+    background-color: midnightblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+}
+#lives {
+    background-color: midnightblue;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px;
+    margin: 0 0;
+}
+
+.loserToggle {
+    margin: auto auto;
+    padding: 50px 50px;
+    background-color: blue;
+    color: slategray;
+    font-size: 50px;
+    font-weight: bold;
+    border: 3px solid white;
+}
+
+.hide {
+    opacity: 0;
+}
